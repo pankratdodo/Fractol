@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lox/2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lox/2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lox/2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lox/2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lox/2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lox/2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lox/2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lox/2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lox/2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lox/2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2">
+				<Option output="/home/lox/2/cmake-build-debug/2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lox/2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lox/2/includes"/>
+					<Add directory="/home/lox/2/libft"/>
+					<Add directory="/home/lox/2/minilibx"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lox/2/cmake-build-debug/Makefile&quot;  VERBOSE=1 2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lox/2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lox/2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lox/2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2/fast">
+				<Option output="/home/lox/2/cmake-build-debug/2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lox/2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lox/2/includes"/>
+					<Add directory="/home/lox/2/libft"/>
+					<Add directory="/home/lox/2/minilibx"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lox/2/cmake-build-debug/Makefile&quot;  VERBOSE=1 2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lox/2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lox/2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lox/2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lox/2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lox/2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lox/2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lox/2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lox/2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lox/2/includes/fract.h">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/includes/libft.h">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/includes/mlx.h">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_atoi.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_bzero.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_count_wrd.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_get_next_line.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_isalnum.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_isalpha.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_isascii.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_isdigit.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_isprint.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_itoa.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_lstadd.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_lstaddend.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_lstdel.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_lstdelone.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_lstiter.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_lstmap.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_lstnew.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_lstprint.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_lstremovis.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_memalloc.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_memccpy.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_memchr.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_memcmp.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_memcpy.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_memdel.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_memmove.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_memset.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_putchar.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_putchar_fd.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_putendl.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_putendl_fd.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_putlongnbr.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_putnbr.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_putnbr_fd.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_putstr.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_putstr_fd.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strcat.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strchr.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strclr.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strcmp.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strcpy.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strdel.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strdup.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strequ.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_striter.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_striteri.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strjoin.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strlcat.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strlen.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strmap.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strmapi.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strncat.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strncmp.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strncpy.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strnequ.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strnew.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strnstr.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strrchr.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strsplit.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strstr.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strsub.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_strtrim.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_swap.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_tolower.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/ft_toupper.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/get_next_line.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/libft/libft.h">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx.h">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_clear_window.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_destroy_image.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_destroy_window.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_expose_hook.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_flush_event.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_get_color_value.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_get_data_addr.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_hook.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_init.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_int.h">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_int_anti_resize_win.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_int_do_nothing.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_int_get_visual.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_int_param_event.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_int_set_win_event_mask.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_int_str_to_wordtab.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_int_wait_first_expose.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_key_hook.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_lib_xpm.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_loop.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_loop_hook.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_mouse_hook.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_new_image.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_new_window.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_pixel_put.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_put_image_to_window.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_rgb.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_string_put.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/mlx_xpm.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/test/main.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/minilibx/test/new_win.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/sources/bonus.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/sources/heart.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/sources/init_main_struct.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/sources/juila.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/sources/key_hook.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/sources/main.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/sources/mandelbrot.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/sources/move.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/sources/threads.c">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="/home/lox/2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
