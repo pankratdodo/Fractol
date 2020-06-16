@@ -1,24 +1,36 @@
-//
-// Created by lox on 13.06.2020.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   threads.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: plettie <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/03/01 21:48:44 by plettie           #+#    #+#             */
+/*   Updated: 2020/03/01 22:05:08 by plettie          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "fract.h"
 
-void		thread_create(t_main *data)
+void		thread_create(t_data *data)
 {
-	int 		i;
-	pthread_t	t[NUM_THREADS];
-	t_threads	args[NUM_THREADS];
+	int			id;
+	t_put		*put;
 
-	i = -1;
-	while (++i < NUM_THREADS)
+	id = -1;
+	put = &data->thr;
+	while (++id < NUM_THREADS)
 	{
-		args[i].id = i;
-		args[i].data = data;
-		if (pthread_create(&t[i], NULL, put_img, args + i))
+		put->args[id].id = id;
+		put->args[id].data = data;
+		put->args[id].hight = data->thr.args->hight;
+		if (pthread_create(&(put->thread[id]), NULL, put_img, &put->args[id]))
 			on_crash(ERROR_CREATE_THREAD);
 	}
-	while (i-- > 0)
-		if (pthread_join(t[i], NULL))
+	while (id-- > 0)
+		if (pthread_join(put->thread[id], NULL))
 			on_crash(ERROR_JOIN_THREAD);
+	mlx_clear_window(data->mlx, data->win);
+	mlx_put_image_to_window(data->mlx, data->win, data->image.img, 0, 0);
+	ft_menu(data);
 }

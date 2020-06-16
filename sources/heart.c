@@ -1,15 +1,23 @@
-//
-// Created by lox on 11.06.2020.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   heart.c                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: plettie <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/03/01 21:48:44 by plettie           #+#    #+#             */
+/*   Updated: 2020/03/01 22:05:08 by plettie          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "fract.h"
 
-static void		formula_heart(t_main *data, int x, int y)
+static void		formula_heart(t_data *data, int x, int y)
 {
 	t_comp		main;
 	t_comp		temp;
 	t_comp		ne_mouse;
-	int 		i;
+	int			i;
 
 	i = -1;
 	ne_mouse = to_complex(x, y, data->view);
@@ -20,11 +28,13 @@ static void		formula_heart(t_main *data, int x, int y)
 		temp.im = fabs(main.re) * main.im * 2 + ne_mouse.im;
 		main = temp;
 	}
-	data->image.adr[x + y * WIDTH] = (i == data->view.iters) ? 0 : data->view.def_color * i;
+	data->image.adr[x + y * WIDTH] = (i ==
+			data->view.iters) ? 0 : data->view.def_color * i;
 }
 
-static void		init_heart(t_main *data)
+void			init_heart(t_data *data)
 {
+	data->type[HEART] = 1;
 	data->view.xmin = -2.0f;
 	data->view.xmax = 1.0f;
 	data->view.ymin = -1.0f;
@@ -35,14 +45,13 @@ static void		init_heart(t_main *data)
 	data->view.iters = 50;
 }
 
-void			do_heart(t_main *data)
+void			do_heart(t_threads *thr)
 {
 	int			x;
 	int			y;
 
-	y = -1;
-	init_heart(data);
-	while (++y < HEIGHT && (x = -1))
+	y = thr->hight * thr->id - 1;
+	while (++y < thr->hight * (thr->id + 1) && (x = -1))
 		while (++x < WIDTH)
-			formula_heart(data, x, y);
+			formula_heart(thr->data, x, y);
 }

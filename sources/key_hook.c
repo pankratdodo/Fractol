@@ -12,7 +12,16 @@
 
 #include "fract.h"
 
-static void		ft_destroy(t_main *data)
+void			*on_crash(int err)
+{
+	(err == MALLOC_ERR) ? write(2, "Malloc error\n",
+			ft_strlen("Malloc error\n")) : 0;
+	(err == ERROR_CREATE_THREAD) ? ft_putstr_fd("Error create thread\n", 2) : 0;
+	(err == ERROR_JOIN_THREAD) ? ft_putstr_fd("Error join thread\n", 2) : 0;
+	exit(err);
+}
+
+static void		ft_destroy(t_data *data)
 {
 	t_img *image;
 
@@ -22,7 +31,7 @@ static void		ft_destroy(t_main *data)
 	exit(0);
 }
 
-int 			mouse_click_hook(int num_but, int x, int y, t_main *data)
+int				mouse_click_hook(int num_but, int x, int y, t_data *data)
 {
 	if (x >= 0 && x < WIDTH && y >= 0 && y < HEIGHT)
 	{
@@ -39,12 +48,11 @@ int 			mouse_click_hook(int num_but, int x, int y, t_main *data)
 			data->view.iters += data->view.zoom < 9 ? 1 : 0;
 		}
 		thread_create(data);
-		//put_img(data);
 	}
 	return (0);
 }
 
-int				key_hook(int key, t_main *data)
+int				key_hook(int key, t_data *data)
 {
 	if (key == ESC)
 		ft_destroy(data);
@@ -57,17 +65,15 @@ int				key_hook(int key, t_main *data)
 	else if (key == KEY_DOWN)
 		change_color_down(data);
 	thread_create(data);
-	//put_img(data);
 	return (0);
 }
 
-int				mouse_move_hook(int x, int y, t_main *fract)
+int				mouse_move_hook(int x, int y, t_data *fract)
 {
 	if (x >= 0 && x < WIDTH && y >= 0 && y < HEIGHT && !fract->view.stop_mouse)
 	{
 		fract->view.mouse = to_complex(x, y, fract->view);
 		thread_create(fract);
-		//put_img(fract);
 	}
 	return (0);
 }
