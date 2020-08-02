@@ -22,17 +22,17 @@
 
 # define WIDTH 1000
 # define HEIGHT 700
-# define ESC 0xff1b
-# define KEY_UP 0xff52
-# define KEY_DOWN 0xff54
-# define KEY_LEFT 0xff51
-# define KEY_RIGHT 0xff53
+# define ESC 53
+# define KEY_UP 126
+# define KEY_DOWN 125
+# define KEY_LEFT 123
+# define KEY_RIGHT 124
 
 # define RED_COLOR 0x0A0505
 # define GREEN_COLOR 0x050A05
 # define BLUE_COLOR 0x05050A
 
-# define NUM_THREADS 12
+# define NUM_THREADS 16
 
 typedef struct s_data	t_data;
 

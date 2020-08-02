@@ -40,12 +40,12 @@ int				mouse_click_hook(int num_but, int x, int y, t_data *data)
 		else if (num_but == 4)
 		{
 			change_zoom(x, y, &data->view, 0.95f);
-			data->view.iters -= data->view.iters < 10 ? 0 : 1;
+			data->view.iters += data->view.iters < 10 ? 0 : 1;
 		}
 		else if (num_but == 5)
 		{
 			change_zoom(x, y, &data->view, 1 / 0.95f);
-			data->view.iters += data->view.zoom < 9 ? 1 : 0;
+			data->view.iters -= data->view.zoom < 9 ? 1 : 0;
 		}
 		thread_create(data);
 	}

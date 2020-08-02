@@ -38,6 +38,7 @@ static int		close_app(void *param)
 {
 	(void)param;
 	exit(0);
+	return (0);
 }
 
 void			init_struct(t_data *data)

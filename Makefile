@@ -19,7 +19,7 @@ LIBFT_DIR	=	libft/
 LIBFT_LIB	=	$(LIBFT_DIR)libft.a
 LIBFT_INC	=	$(LIBFT_DIR)/
 
-LIBS		=	-lm -lpthread -L/usr/X11/lib /usr/X11/lib/libmlx.a -lXext -lX11 -lbsd
+LIBS		=	-lm -lpthread  -framework OpenGL -framework AppKit minilibx/libmlx.a
 
 SRC_DIR		=	sources/
 INC_DIR		=	includes/
