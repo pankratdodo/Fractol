@@ -159,5 +159,6 @@ int                     ft_strcmp(const char *s1, const char *s2);
 int                     ft_tolower(int item);
 void	                ft_putchar_fd(char c, int fd);
 void	                ft_bzero(void *s, size_t n);
+char					**ft_strsplit(char const *s, char c);
 
 #endif

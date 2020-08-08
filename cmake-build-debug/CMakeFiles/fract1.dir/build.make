@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /Users/a18574584/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /Users/a18574584/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/plettie/fract1
+CMAKE_SOURCE_DIR = /Users/a18574584/Fractol
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/plettie/fract1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/a18574584/Fractol/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/fract1.dir/depend.make
@@ -59,185 +59,185 @@ include CMakeFiles/fract1.dir/flags.make
 
 CMakeFiles/fract1.dir/sources/bonus.c.o: CMakeFiles/fract1.dir/flags.make
 CMakeFiles/fract1.dir/sources/bonus.c.o: ../sources/bonus.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plettie/fract1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/fract1.dir/sources/bonus.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/bonus.c.o   -c /Users/plettie/fract1/sources/bonus.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a18574584/Fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/fract1.dir/sources/bonus.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/bonus.c.o   -c /Users/a18574584/Fractol/sources/bonus.c
 
 CMakeFiles/fract1.dir/sources/bonus.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fract1.dir/sources/bonus.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plettie/fract1/sources/bonus.c > CMakeFiles/fract1.dir/sources/bonus.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a18574584/Fractol/sources/bonus.c > CMakeFiles/fract1.dir/sources/bonus.c.i
 
 CMakeFiles/fract1.dir/sources/bonus.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fract1.dir/sources/bonus.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plettie/fract1/sources/bonus.c -o CMakeFiles/fract1.dir/sources/bonus.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a18574584/Fractol/sources/bonus.c -o CMakeFiles/fract1.dir/sources/bonus.c.s
 
 CMakeFiles/fract1.dir/sources/burningship.c.o: CMakeFiles/fract1.dir/flags.make
 CMakeFiles/fract1.dir/sources/burningship.c.o: ../sources/burningship.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plettie/fract1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/fract1.dir/sources/burningship.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/burningship.c.o   -c /Users/plettie/fract1/sources/burningship.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a18574584/Fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/fract1.dir/sources/burningship.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/burningship.c.o   -c /Users/a18574584/Fractol/sources/burningship.c
 
 CMakeFiles/fract1.dir/sources/burningship.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fract1.dir/sources/burningship.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plettie/fract1/sources/burningship.c > CMakeFiles/fract1.dir/sources/burningship.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a18574584/Fractol/sources/burningship.c > CMakeFiles/fract1.dir/sources/burningship.c.i
 
 CMakeFiles/fract1.dir/sources/burningship.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fract1.dir/sources/burningship.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plettie/fract1/sources/burningship.c -o CMakeFiles/fract1.dir/sources/burningship.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a18574584/Fractol/sources/burningship.c -o CMakeFiles/fract1.dir/sources/burningship.c.s
 
 CMakeFiles/fract1.dir/sources/heart.c.o: CMakeFiles/fract1.dir/flags.make
 CMakeFiles/fract1.dir/sources/heart.c.o: ../sources/heart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plettie/fract1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/fract1.dir/sources/heart.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/heart.c.o   -c /Users/plettie/fract1/sources/heart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a18574584/Fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/fract1.dir/sources/heart.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/heart.c.o   -c /Users/a18574584/Fractol/sources/heart.c
 
 CMakeFiles/fract1.dir/sources/heart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fract1.dir/sources/heart.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plettie/fract1/sources/heart.c > CMakeFiles/fract1.dir/sources/heart.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a18574584/Fractol/sources/heart.c > CMakeFiles/fract1.dir/sources/heart.c.i
 
 CMakeFiles/fract1.dir/sources/heart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fract1.dir/sources/heart.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plettie/fract1/sources/heart.c -o CMakeFiles/fract1.dir/sources/heart.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a18574584/Fractol/sources/heart.c -o CMakeFiles/fract1.dir/sources/heart.c.s
 
 CMakeFiles/fract1.dir/sources/init_main_struct.c.o: CMakeFiles/fract1.dir/flags.make
 CMakeFiles/fract1.dir/sources/init_main_struct.c.o: ../sources/init_main_struct.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plettie/fract1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/fract1.dir/sources/init_main_struct.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/init_main_struct.c.o   -c /Users/plettie/fract1/sources/init_main_struct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a18574584/Fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/fract1.dir/sources/init_main_struct.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/init_main_struct.c.o   -c /Users/a18574584/Fractol/sources/init_main_struct.c
 
 CMakeFiles/fract1.dir/sources/init_main_struct.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fract1.dir/sources/init_main_struct.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plettie/fract1/sources/init_main_struct.c > CMakeFiles/fract1.dir/sources/init_main_struct.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a18574584/Fractol/sources/init_main_struct.c > CMakeFiles/fract1.dir/sources/init_main_struct.c.i
 
 CMakeFiles/fract1.dir/sources/init_main_struct.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fract1.dir/sources/init_main_struct.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plettie/fract1/sources/init_main_struct.c -o CMakeFiles/fract1.dir/sources/init_main_struct.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a18574584/Fractol/sources/init_main_struct.c -o CMakeFiles/fract1.dir/sources/init_main_struct.c.s
 
 CMakeFiles/fract1.dir/sources/juila.c.o: CMakeFiles/fract1.dir/flags.make
 CMakeFiles/fract1.dir/sources/juila.c.o: ../sources/juila.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plettie/fract1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/fract1.dir/sources/juila.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/juila.c.o   -c /Users/plettie/fract1/sources/juila.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a18574584/Fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/fract1.dir/sources/juila.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/juila.c.o   -c /Users/a18574584/Fractol/sources/juila.c
 
 CMakeFiles/fract1.dir/sources/juila.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fract1.dir/sources/juila.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plettie/fract1/sources/juila.c > CMakeFiles/fract1.dir/sources/juila.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a18574584/Fractol/sources/juila.c > CMakeFiles/fract1.dir/sources/juila.c.i
 
 CMakeFiles/fract1.dir/sources/juila.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fract1.dir/sources/juila.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plettie/fract1/sources/juila.c -o CMakeFiles/fract1.dir/sources/juila.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a18574584/Fractol/sources/juila.c -o CMakeFiles/fract1.dir/sources/juila.c.s
 
 CMakeFiles/fract1.dir/sources/key_hook.c.o: CMakeFiles/fract1.dir/flags.make
 CMakeFiles/fract1.dir/sources/key_hook.c.o: ../sources/key_hook.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plettie/fract1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/fract1.dir/sources/key_hook.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/key_hook.c.o   -c /Users/plettie/fract1/sources/key_hook.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a18574584/Fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/fract1.dir/sources/key_hook.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/key_hook.c.o   -c /Users/a18574584/Fractol/sources/key_hook.c
 
 CMakeFiles/fract1.dir/sources/key_hook.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fract1.dir/sources/key_hook.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plettie/fract1/sources/key_hook.c > CMakeFiles/fract1.dir/sources/key_hook.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a18574584/Fractol/sources/key_hook.c > CMakeFiles/fract1.dir/sources/key_hook.c.i
 
 CMakeFiles/fract1.dir/sources/key_hook.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fract1.dir/sources/key_hook.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plettie/fract1/sources/key_hook.c -o CMakeFiles/fract1.dir/sources/key_hook.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a18574584/Fractol/sources/key_hook.c -o CMakeFiles/fract1.dir/sources/key_hook.c.s
 
 CMakeFiles/fract1.dir/sources/main.c.o: CMakeFiles/fract1.dir/flags.make
 CMakeFiles/fract1.dir/sources/main.c.o: ../sources/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plettie/fract1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/fract1.dir/sources/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/main.c.o   -c /Users/plettie/fract1/sources/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a18574584/Fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/fract1.dir/sources/main.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/main.c.o   -c /Users/a18574584/Fractol/sources/main.c
 
 CMakeFiles/fract1.dir/sources/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fract1.dir/sources/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plettie/fract1/sources/main.c > CMakeFiles/fract1.dir/sources/main.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a18574584/Fractol/sources/main.c > CMakeFiles/fract1.dir/sources/main.c.i
 
 CMakeFiles/fract1.dir/sources/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fract1.dir/sources/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plettie/fract1/sources/main.c -o CMakeFiles/fract1.dir/sources/main.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a18574584/Fractol/sources/main.c -o CMakeFiles/fract1.dir/sources/main.c.s
 
 CMakeFiles/fract1.dir/sources/mandelbar.c.o: CMakeFiles/fract1.dir/flags.make
 CMakeFiles/fract1.dir/sources/mandelbar.c.o: ../sources/mandelbar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plettie/fract1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/fract1.dir/sources/mandelbar.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/mandelbar.c.o   -c /Users/plettie/fract1/sources/mandelbar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a18574584/Fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/fract1.dir/sources/mandelbar.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/mandelbar.c.o   -c /Users/a18574584/Fractol/sources/mandelbar.c
 
 CMakeFiles/fract1.dir/sources/mandelbar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fract1.dir/sources/mandelbar.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plettie/fract1/sources/mandelbar.c > CMakeFiles/fract1.dir/sources/mandelbar.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a18574584/Fractol/sources/mandelbar.c > CMakeFiles/fract1.dir/sources/mandelbar.c.i
 
 CMakeFiles/fract1.dir/sources/mandelbar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fract1.dir/sources/mandelbar.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plettie/fract1/sources/mandelbar.c -o CMakeFiles/fract1.dir/sources/mandelbar.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a18574584/Fractol/sources/mandelbar.c -o CMakeFiles/fract1.dir/sources/mandelbar.c.s
 
 CMakeFiles/fract1.dir/sources/mandelbrot.c.o: CMakeFiles/fract1.dir/flags.make
 CMakeFiles/fract1.dir/sources/mandelbrot.c.o: ../sources/mandelbrot.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plettie/fract1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/fract1.dir/sources/mandelbrot.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/mandelbrot.c.o   -c /Users/plettie/fract1/sources/mandelbrot.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a18574584/Fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/fract1.dir/sources/mandelbrot.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/mandelbrot.c.o   -c /Users/a18574584/Fractol/sources/mandelbrot.c
 
 CMakeFiles/fract1.dir/sources/mandelbrot.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fract1.dir/sources/mandelbrot.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plettie/fract1/sources/mandelbrot.c > CMakeFiles/fract1.dir/sources/mandelbrot.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a18574584/Fractol/sources/mandelbrot.c > CMakeFiles/fract1.dir/sources/mandelbrot.c.i
 
 CMakeFiles/fract1.dir/sources/mandelbrot.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fract1.dir/sources/mandelbrot.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plettie/fract1/sources/mandelbrot.c -o CMakeFiles/fract1.dir/sources/mandelbrot.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a18574584/Fractol/sources/mandelbrot.c -o CMakeFiles/fract1.dir/sources/mandelbrot.c.s
 
 CMakeFiles/fract1.dir/sources/move.c.o: CMakeFiles/fract1.dir/flags.make
 CMakeFiles/fract1.dir/sources/move.c.o: ../sources/move.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plettie/fract1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/fract1.dir/sources/move.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/move.c.o   -c /Users/plettie/fract1/sources/move.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a18574584/Fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/fract1.dir/sources/move.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/move.c.o   -c /Users/a18574584/Fractol/sources/move.c
 
 CMakeFiles/fract1.dir/sources/move.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fract1.dir/sources/move.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plettie/fract1/sources/move.c > CMakeFiles/fract1.dir/sources/move.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a18574584/Fractol/sources/move.c > CMakeFiles/fract1.dir/sources/move.c.i
 
 CMakeFiles/fract1.dir/sources/move.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fract1.dir/sources/move.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plettie/fract1/sources/move.c -o CMakeFiles/fract1.dir/sources/move.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a18574584/Fractol/sources/move.c -o CMakeFiles/fract1.dir/sources/move.c.s
 
 CMakeFiles/fract1.dir/sources/threads.c.o: CMakeFiles/fract1.dir/flags.make
 CMakeFiles/fract1.dir/sources/threads.c.o: ../sources/threads.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plettie/fract1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/fract1.dir/sources/threads.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/threads.c.o   -c /Users/plettie/fract1/sources/threads.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a18574584/Fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/fract1.dir/sources/threads.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/threads.c.o   -c /Users/a18574584/Fractol/sources/threads.c
 
 CMakeFiles/fract1.dir/sources/threads.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fract1.dir/sources/threads.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plettie/fract1/sources/threads.c > CMakeFiles/fract1.dir/sources/threads.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a18574584/Fractol/sources/threads.c > CMakeFiles/fract1.dir/sources/threads.c.i
 
 CMakeFiles/fract1.dir/sources/threads.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fract1.dir/sources/threads.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plettie/fract1/sources/threads.c -o CMakeFiles/fract1.dir/sources/threads.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a18574584/Fractol/sources/threads.c -o CMakeFiles/fract1.dir/sources/threads.c.s
 
 CMakeFiles/fract1.dir/sources/celtic.c.o: CMakeFiles/fract1.dir/flags.make
 CMakeFiles/fract1.dir/sources/celtic.c.o: ../sources/celtic.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plettie/fract1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/fract1.dir/sources/celtic.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/celtic.c.o   -c /Users/plettie/fract1/sources/celtic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a18574584/Fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/fract1.dir/sources/celtic.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/celtic.c.o   -c /Users/a18574584/Fractol/sources/celtic.c
 
 CMakeFiles/fract1.dir/sources/celtic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fract1.dir/sources/celtic.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plettie/fract1/sources/celtic.c > CMakeFiles/fract1.dir/sources/celtic.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a18574584/Fractol/sources/celtic.c > CMakeFiles/fract1.dir/sources/celtic.c.i
 
 CMakeFiles/fract1.dir/sources/celtic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fract1.dir/sources/celtic.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plettie/fract1/sources/celtic.c -o CMakeFiles/fract1.dir/sources/celtic.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a18574584/Fractol/sources/celtic.c -o CMakeFiles/fract1.dir/sources/celtic.c.s
 
 CMakeFiles/fract1.dir/sources/mand5.c.o: CMakeFiles/fract1.dir/flags.make
 CMakeFiles/fract1.dir/sources/mand5.c.o: ../sources/mand5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plettie/fract1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/fract1.dir/sources/mand5.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/mand5.c.o   -c /Users/plettie/fract1/sources/mand5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a18574584/Fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/fract1.dir/sources/mand5.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/mand5.c.o   -c /Users/a18574584/Fractol/sources/mand5.c
 
 CMakeFiles/fract1.dir/sources/mand5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fract1.dir/sources/mand5.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plettie/fract1/sources/mand5.c > CMakeFiles/fract1.dir/sources/mand5.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a18574584/Fractol/sources/mand5.c > CMakeFiles/fract1.dir/sources/mand5.c.i
 
 CMakeFiles/fract1.dir/sources/mand5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fract1.dir/sources/mand5.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plettie/fract1/sources/mand5.c -o CMakeFiles/fract1.dir/sources/mand5.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a18574584/Fractol/sources/mand5.c -o CMakeFiles/fract1.dir/sources/mand5.c.s
 
 CMakeFiles/fract1.dir/sources/burn5.c.o: CMakeFiles/fract1.dir/flags.make
 CMakeFiles/fract1.dir/sources/burn5.c.o: ../sources/burn5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/plettie/fract1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/fract1.dir/sources/burn5.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/burn5.c.o   -c /Users/plettie/fract1/sources/burn5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a18574584/Fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/fract1.dir/sources/burn5.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract1.dir/sources/burn5.c.o   -c /Users/a18574584/Fractol/sources/burn5.c
 
 CMakeFiles/fract1.dir/sources/burn5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fract1.dir/sources/burn5.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/plettie/fract1/sources/burn5.c > CMakeFiles/fract1.dir/sources/burn5.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a18574584/Fractol/sources/burn5.c > CMakeFiles/fract1.dir/sources/burn5.c.i
 
 CMakeFiles/fract1.dir/sources/burn5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fract1.dir/sources/burn5.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/plettie/fract1/sources/burn5.c -o CMakeFiles/fract1.dir/sources/burn5.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a18574584/Fractol/sources/burn5.c -o CMakeFiles/fract1.dir/sources/burn5.c.s
 
 # Object files for target fract1
 fract1_OBJECTS = \
@@ -275,7 +275,7 @@ fract1: CMakeFiles/fract1.dir/sources/mand5.c.o
 fract1: CMakeFiles/fract1.dir/sources/burn5.c.o
 fract1: CMakeFiles/fract1.dir/build.make
 fract1: CMakeFiles/fract1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/plettie/fract1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking C executable fract1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/a18574584/Fractol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking C executable fract1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fract1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -288,6 +288,6 @@ CMakeFiles/fract1.dir/clean:
 .PHONY : CMakeFiles/fract1.dir/clean
 
 CMakeFiles/fract1.dir/depend:
-	cd /Users/plettie/fract1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/plettie/fract1 /Users/plettie/fract1 /Users/plettie/fract1/cmake-build-debug /Users/plettie/fract1/cmake-build-debug /Users/plettie/fract1/cmake-build-debug/CMakeFiles/fract1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/a18574584/Fractol/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/a18574584/Fractol /Users/a18574584/Fractol /Users/a18574584/Fractol/cmake-build-debug /Users/a18574584/Fractol/cmake-build-debug /Users/a18574584/Fractol/cmake-build-debug/CMakeFiles/fract1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/fract1.dir/depend
 

@@ -16,7 +16,7 @@ CC		=	clang
 
 uname_S		:= $(shell uname -s)
 
-FLAGS		= -Ofast -m64 -march=native -lm -lpthread  -framework OpenGL -framework AppKit -lmlx
+FLAGS		= -Ofast -m64 -march=native -lm -lpthread  -framework OpenGL -framework AppKit minilibx/libmlx.a
 
 DELTA		=	$$(echo "$$(tput cols)-47"|bc)
 

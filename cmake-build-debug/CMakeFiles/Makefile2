@@ -35,19 +35,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /Users/a18574584/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /Users/a18574584/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/plettie/fract1
+CMAKE_SOURCE_DIR = /Users/a18574584/Fractol
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/plettie/fract1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/a18574584/Fractol/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/fract1.dir/clean
 CMakeFiles/fract1.dir/all:
 	$(MAKE) -f CMakeFiles/fract1.dir/build.make CMakeFiles/fract1.dir/depend
 	$(MAKE) -f CMakeFiles/fract1.dir/build.make CMakeFiles/fract1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/plettie/fract1/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target fract1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/a18574584/Fractol/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target fract1"
 .PHONY : CMakeFiles/fract1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fract1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/plettie/fract1/cmake-build-debug/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/a18574584/Fractol/cmake-build-debug/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fract1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/plettie/fract1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/a18574584/Fractol/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/fract1.dir/rule
 
 # Convenience name for target.

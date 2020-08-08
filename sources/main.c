@@ -12,20 +12,7 @@
 
 #include "fract.h"
 
-static void		print_error(int i, int code)
-{
-	if (i == 1)
-		ft_putstr_fd("Enter one name\n", 2);
-	if (i == 2)
-	{
-		ft_putstr_fd("usage: ./fractol *name of fractal*\n", 2);
-		ft_putstr_fd("Allowed names: julia, mandelbrot, heart, ", 2);
-		ft_putstr_fd("burning, mandelbar, celtic, mand5, burn5\n", 2);
-	}
-	exit(code);
-}
-
-static int		init_fract(char *new, t_data *fract)
+static int			init_fract(char *new, t_data *fract)
 {
 	if (!ft_strcmp(new, "julia"))
 		init_julia(fract);
@@ -48,10 +35,10 @@ static int		init_fract(char *new, t_data *fract)
 	return (1);
 }
 
-static int		check_param(char *str, t_data *fract)
+static int			check_param(char *str, t_data *fract)
 {
-	int		i;
-	char	*new;
+	int				i;
+	char			*new;
 
 	i = -1;
 	if (!(new = ft_memalloc(ft_strlen(str) + 1)))
@@ -73,7 +60,7 @@ static int		check_param(char *str, t_data *fract)
 	return (1);
 }
 
-static void		init_type(t_data *data)
+static void			init_type(t_data *data)
 {
 	data->type[JUL] = 0;
 	data->type[MAND] = 0;
@@ -88,15 +75,30 @@ static void		init_type(t_data *data)
 	data->thr.args->hight = HEIGHT / NUM_THREADS;
 }
 
-int				main(int ac, char **av)
+static void			multiwindow(char **av)
 {
-	t_data	fract;
+	register int	i;
+
+	i = 1;
+	while (av[++i])
+		if (!fork())
+			execv(av[0], (char *const[3]) {av[0], av[i], NULL});
+}
+
+int					main(int ac, char **av)
+{
+	t_data			fract;
 
 	if (ac != 2)
-		print_error(1, 0);
+		multiwindow(av);
 	init_type(&fract);
 	if (!check_param(av[1], &fract))
-		print_error(2, 0);
+	{
+		ft_putstr_fd("usage: ./fractol *name of fractal*\n", 2);
+		ft_putstr_fd("Allowed names: julia, mandelbrot, heart, ", 2);
+		ft_putstr_fd("burning, mandelbar, celtic, mand5, burn5\n", 2);
+		exit(2);
+	}
 	init_struct(&fract);
 	thread_create(&fract);
 	mlx_loop(fract.mlx);
