@@ -1,4 +1,4 @@
-# Fract-ol-42
+# Fractol-42
 The program involves basics of graphic programming with miniLibX
 
 ## About
