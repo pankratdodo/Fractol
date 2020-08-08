@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: plettie <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/03/01 21:48:44 by plettie           #+#    #+#             */
-/*   Updated: 2020/03/01 22:05:08 by plettie          ###   ########.fr       */
+/*   Created: 2020/08/08 18:20:39 by plettie           #+#    #+#             */
+/*   Updated: 2020/08/08 18:20:44 by plettie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ static void		print_error(int i, int code)
 	{
 		ft_putstr_fd("usage: ./fractol *name of fractal*\n", 2);
 		ft_putstr_fd("Allowed names: julia, mandelbrot, heart, ", 2);
-		ft_putstr_fd("burinig, mandelbar\n", 2);
+		ft_putstr_fd("burning, mandelbar, celtic, mand5, burn5\n", 2);
 	}
 	exit(code);
 }
@@ -37,6 +37,12 @@ static int		init_fract(char *new, t_data *fract)
 		init_burn(fract);
 	else if (!ft_strcmp(new, "mandelbar"))
 		init_mbar(fract);
+	else if (!ft_strcmp(new, "celtic"))
+		init_celtic(fract);
+	else if (!ft_strcmp(new, "mand5"))
+		init_mand5(fract);
+	else if (!ft_strcmp(new, "burn5"))
+		init_burn5(fract);
 	else
 		return (0);
 	return (1);
@@ -74,6 +80,9 @@ static void		init_type(t_data *data)
 	data->type[HEART] = 0;
 	data->type[BURN] = 0;
 	data->type[MBAR] = 0;
+	data->type[CELTIC] = 0;
+	data->type[MAND5] = 0;
+	data->type[BURN5] = 0;
 	data->view.def_color = RED_COLOR;
 	data->view.stop_mouse = 0;
 	data->thr.args->hight = HEIGHT / NUM_THREADS;

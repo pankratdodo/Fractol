@@ -18,7 +18,6 @@
 # include <unistd.h>
 # include <pthread.h>
 # include <mlx.h>
-# include "libft.h"
 
 # define WIDTH 1000
 # define HEIGHT 700
@@ -50,6 +49,9 @@ enum					e_type
 	HEART,
 	BURN,
 	MBAR,
+	CELTIC,
+	MAND5,
+	BURN5,
 	ELEMENTS
 };
 
@@ -139,5 +141,23 @@ void					init_burn(t_data *data);
 void					do_mbar(t_threads *thr);
 void					init_mbar(t_data *data);
 
+void			        do_celtic(t_threads *thr);
+void			        init_celtic(t_data *data);
+
+void			        do_mand5(t_threads *thr);
+void			        init_mand5(t_data *data);
+
+void			        do_burn5(t_threads *thr);
+void			        init_burn5(t_data *data);
+
 void					thread_create(t_data *data);
+
+size_t		            ft_strlen(const char *str);
+void	                ft_putstr_fd(char const *s, int fd);
+void	                *ft_memalloc(size_t size);
+int                     ft_strcmp(const char *s1, const char *s2);
+int                     ft_tolower(int item);
+void	                ft_putchar_fd(char c, int fd);
+void	                ft_bzero(void *s, size_t n);
+
 #endif

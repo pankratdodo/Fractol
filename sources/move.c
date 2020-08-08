@@ -14,19 +14,18 @@
 
 void	ft_menu(t_data *data)
 {
-	mlx_put_image_to_window(data->mlx, data->win, data->image.img, 0, 0);
-	data->type[JUL] == 1 ? mlx_string_put(data->mlx, data->win,
-			10, 1070, 0x808080, "Push left mouse but to stop move") : 0;
-	mlx_string_put(data->mlx, data->win, 10, 890, 0,
+	mlx_string_put(data->mlx, data->win, 10, HEIGHT - 130, 0x808080,
 			"Push 'ESC' to exit");
-	mlx_string_put(data->mlx, data->win, 10, 910, 0x808080,
+	mlx_string_put(data->mlx, data->win, 10, HEIGHT - 110, 0x808080,
 			"Push 'LEFT' and 'RIGHT' to change fractal");
-	mlx_string_put(data->mlx, data->win, 10, 930, 0x808080,
+	mlx_string_put(data->mlx, data->win, 10, HEIGHT - 90, 0x808080,
 			"Push 'UP' and 'DOWN' to change color");
-	mlx_string_put(data->mlx, data->win, 10, 950, 0x808080,
+	mlx_string_put(data->mlx, data->win, 10, HEIGHT - 70, 0x808080,
 			"Scroll up to increase the global size of the fractal");
-	mlx_string_put(data->mlx, data->win, 10, 970, 0x808080,
+	mlx_string_put(data->mlx, data->win, 10, HEIGHT - 50, 0x808080,
 			"Scroll down to decrease the global size of the fractal");
+	data->type[JUL] == 1 ? mlx_string_put(data->mlx, data->win,
+			10, HEIGHT - 30, 0x808080, "Push left mouse but to stop move") : 0;
 }
 
 void	change_zoom(int x, int y, t_view *view, double d)

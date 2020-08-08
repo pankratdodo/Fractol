@@ -49,13 +49,19 @@ void		change_fract_right(t_data *data)
 	else if (data->type[BURN] == 1)
 		change_fract(&data->type[BURN], init_mbar, data);
 	else if (data->type[MBAR] == 1)
-		change_fract(&data->type[MBAR], init_julia, data);
+		change_fract(&data->type[MBAR], init_celtic, data);
+	else if (data->type[CELTIC] == 1)
+		change_fract(&data->type[CELTIC], init_mand5, data);
+	else if (data->type[MAND5] == 1)
+		change_fract(&data->type[MAND5], init_burn5, data);
+	else if (data->type[BURN5] == 1)
+		change_fract(&data->type[BURN5], init_julia, data);
 }
 
 void		change_fract_left(t_data *data)
 {
 	if (data->type[JUL] == 1)
-		change_fract(&data->type[JUL], init_mbar, data);
+		change_fract(&data->type[JUL], init_burn5, data);
 	else if (data->type[MAND] == 1)
 		change_fract(&data->type[MAND], init_julia, data);
 	else if (data->type[HEART] == 1)
@@ -64,4 +70,10 @@ void		change_fract_left(t_data *data)
 		change_fract(&data->type[BURN], init_heart, data);
 	else if (data->type[MBAR] == 1)
 		change_fract(&data->type[MBAR], init_burn, data);
+	else if (data->type[CELTIC] == 1)
+		change_fract(&data->type[CELTIC], init_mbar, data);
+	else if (data->type[MAND5] == 1)
+		change_fract(&data->type[MAND5], init_celtic, data);
+	else if (data->type[BURN5] == 1)
+		change_fract(&data->type[BURN5], init_mand5, data);
 }

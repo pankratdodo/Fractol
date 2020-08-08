@@ -1,0 +1,3 @@
+/Users/plettie/fract1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/plettie/fract1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/plettie/fract1/cmake-build-debug/CMakeFiles/fract1.dir

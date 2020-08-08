@@ -15,7 +15,7 @@
 void			*on_crash(int err)
 {
 	(err == MALLOC_ERR) ? write(2, "Malloc error\n",
-			ft_strlen("Malloc error\n")) : 0;
+								ft_strlen("Malloc error\n")) : 0;
 	(err == ERROR_CREATE_THREAD) ? ft_putstr_fd("Error create thread\n", 2) : 0;
 	(err == ERROR_JOIN_THREAD) ? ft_putstr_fd("Error join thread\n", 2) : 0;
 	exit(err);
@@ -33,6 +33,8 @@ static void		ft_destroy(t_data *data)
 
 int				mouse_click_hook(int num_but, int x, int y, t_data *data)
 {
+	static int	zoom = 0;
+
 	if (x >= 0 && x < WIDTH && y >= 0 && y < HEIGHT)
 	{
 		if (num_but == 1 && data->type[JUL] == 1)
@@ -40,12 +42,14 @@ int				mouse_click_hook(int num_but, int x, int y, t_data *data)
 		else if (num_but == 4)
 		{
 			change_zoom(x, y, &data->view, 0.95f);
-			data->view.iters += data->view.iters < 10 ? 0 : 1;
+			if (data->view.iters >= 10)
+				(zoom = (zoom + 1) % 10) ? 0 : data->view.iters++;
 		}
 		else if (num_but == 5)
 		{
 			change_zoom(x, y, &data->view, 1 / 0.95f);
-			data->view.iters -= data->view.zoom < 9 ? 1 : 0;
+			if (data->view.zoom < 9)
+				(zoom = (zoom + 1) % 10) ? 0 : data->view.iters--;
 		}
 		thread_create(data);
 	}
