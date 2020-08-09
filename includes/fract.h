@@ -19,8 +19,8 @@
 # include <pthread.h>
 # include <mlx.h>
 
-# define WIDTH 1000
-# define HEIGHT 700
+# define WIDTH 576
+# define HEIGHT 360
 # define ESC 53
 # define KEY_UP 126
 # define KEY_DOWN 125
@@ -31,7 +31,7 @@
 # define GREEN_COLOR 0x050A05
 # define BLUE_COLOR 0x05050A
 
-# define NUM_THREADS 16
+# define NUM_THREADS 12
 
 typedef struct s_data	t_data;
 

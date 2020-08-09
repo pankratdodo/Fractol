@@ -32,5 +32,5 @@ void		thread_create(t_data *data)
 			on_crash(ERROR_JOIN_THREAD);
 	mlx_clear_window(data->mlx, data->win);
 	mlx_put_image_to_window(data->mlx, data->win, data->image.img, 0, 0);
-	ft_menu(data);
+	ft_menu(data);	
 }
