@@ -6,7 +6,7 @@
 /*   By: plettie <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/10 18:31:48 by plettie           #+#    #+#             */
-/*   Updated: 2020/03/16 19:30:49 by plettie          ###   ########.fr       */
+/*   Updated: 2020/09/12 15:46:14 by plettie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,8 @@ static int		close_app(void *param)
 
 void			init_struct(t_data *data)
 {
-	if ((data->mlx = mlx_init()))
+	if ((data->mlx = mlx_init()) && WIDTH > 0 && HEIGHT > 0)
+	{
 		if ((data->win = mlx_new_window(data->mlx,
 										WIDTH, HEIGHT, "Fractol")))
 		{
@@ -59,4 +60,7 @@ void			init_struct(t_data *data)
 			mlx_hook(data->win, 6, (1L << 6), mouse_move_hook, data);
 			mlx_hook(data->win, 17, 0L, close_app, data);
 		}
+	}
+	else
+		exit(-1);
 }

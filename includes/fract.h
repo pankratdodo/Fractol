@@ -6,7 +6,7 @@
 /*   By: plettie <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/01 21:48:44 by plettie           #+#    #+#             */
-/*   Updated: 2020/03/01 22:05:08 by plettie          ###   ########.fr       */
+/*   Updated: 2020/09/12 15:49:21 by plettie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@
 # include <pthread.h>
 # include <mlx.h>
 
-# define WIDTH 576
-# define HEIGHT 360
+# define WIDTH 800
+# define HEIGHT 500
 # define ESC 53
 # define KEY_UP 126
 # define KEY_DOWN 125
@@ -31,7 +31,7 @@
 # define GREEN_COLOR 0x050A05
 # define BLUE_COLOR 0x05050A
 
-# define NUM_THREADS 12
+# define NUM_THREADS 8
 
 typedef struct s_data	t_data;
 
@@ -141,24 +141,24 @@ void					init_burn(t_data *data);
 void					do_mbar(t_threads *thr);
 void					init_mbar(t_data *data);
 
-void			        do_celtic(t_threads *thr);
-void			        init_celtic(t_data *data);
+void					do_celtic(t_threads *thr);
+void					init_celtic(t_data *data);
 
-void			        do_mand5(t_threads *thr);
-void			        init_mand5(t_data *data);
+void					do_mand5(t_threads *thr);
+void					init_mand5(t_data *data);
 
-void			        do_burn5(t_threads *thr);
-void			        init_burn5(t_data *data);
+void					do_burn5(t_threads *thr);
+void					init_burn5(t_data *data);
 
 void					thread_create(t_data *data);
 
-size_t		            ft_strlen(const char *str);
-void	                ft_putstr_fd(char const *s, int fd);
-void	                *ft_memalloc(size_t size);
-int                     ft_strcmp(const char *s1, const char *s2);
-int                     ft_tolower(int item);
-void	                ft_putchar_fd(char c, int fd);
-void	                ft_bzero(void *s, size_t n);
+size_t					ft_strlen(const char *str);
+void					ft_putstr_fd(char const *s, int fd);
+void					*ft_memalloc(size_t size);
+int						ft_strcmp(const char *s1, const char *s2);
+int						ft_tolower(int item);
+void					ft_putchar_fd(char c, int fd);
+void					ft_bzero(void *s, size_t n);
 char					**ft_strsplit(char const *s, char c);
 
 #endif

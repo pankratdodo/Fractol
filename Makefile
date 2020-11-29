@@ -28,7 +28,7 @@ SRC_BASE	=	libft1.c main.c libft2.c celtic.c mand5.c burn5.c init_main_struct.c 
 
 SRCS		=	$(addprefix $(SRC_DIR), $(SRC_BASE))
 OBJS		=	$(addprefix $(OBJ_DIR), $(SRC_BASE:.c=.o))
-NB		=	$(words $(SRC_BASE))
+NB			=	$(words $(SRC_BASE))
 INDEX		=	0
 
 all:

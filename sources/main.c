@@ -81,19 +81,32 @@ static void			multiwindow(char **av)
 
 	i = 1;
 	while (av[++i])
+	{
+		if (!ft_strcmp("no_output", av[i]))
+			continue ;
 		if (!fork())
-			execv(av[0], (char *const[3]) {av[0], av[i], NULL});
+			execv(av[0], (char *const[4]) {av[0], av[i], "no_output", NULL});
+	}
 }
 
 int					main(int ac, char **av)
 {
 	t_data			fract;
 
+	if (ac == 1)
+	{
+		ft_putstr_fd("usage: ./fractol *name of fractal*\n", 2);
+		ft_putstr_fd("Allowed names: julia, mandelbrot, heart, ", 2);
+		ft_putstr_fd("burning, mandelbar, celtic, mand5, burn5\n", 2);
+		exit(2);
+	}
 	if (ac != 2)
 		multiwindow(av);
 	init_type(&fract);
 	if (!check_param(av[1], &fract))
 	{
+		if (ac > 2 && !ft_strcmp(av[2], "no_output"))
+			exit(1);
 		ft_putstr_fd("usage: ./fractol *name of fractal*\n", 2);
 		ft_putstr_fd("Allowed names: julia, mandelbrot, heart, ", 2);
 		ft_putstr_fd("burning, mandelbar, celtic, mand5, burn5\n", 2);

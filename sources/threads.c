@@ -6,7 +6,7 @@
 /*   By: plettie <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/01 21:48:44 by plettie           #+#    #+#             */
-/*   Updated: 2020/03/01 22:05:08 by plettie          ###   ########.fr       */
+/*   Updated: 2020/09/12 15:46:39 by plettie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,5 +32,5 @@ void		thread_create(t_data *data)
 			on_crash(ERROR_JOIN_THREAD);
 	mlx_clear_window(data->mlx, data->win);
 	mlx_put_image_to_window(data->mlx, data->win, data->image.img, 0, 0);
-	ft_menu(data);	
+	ft_menu(data);
 }
