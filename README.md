@@ -5,6 +5,8 @@ The program involves basics of graphic programming with miniLibX
 The representation in 3D of a landscape is a critical aspect of modern mapping. This project is about creating a simplified graphic “wireframe” (“fils de fer” in french,
 hence the name of the project) representation of a relief landscape linking various points (x, y, z) via segments. The coordinates of this landscape are stored in a file passed as a parameter to your program.
 
+![](Julia.png)
+
 ## Installation
 1. Download/Clone this repo
 ```
@@ -13,6 +15,10 @@ git clone https://github.com/pankratdodo/Fractol.git
 2. `cd` into directrory and run `make`
 ```
 make && ./fractol *name_of_fractals*
+```
+If you have not the `minilibx` directory then you can use `mlx_install.sh`
+```
+sh mlx_install.sh && make && ./fractol *name_of_fractals*
 ```
 
 ## Main project instructions
@@ -39,8 +45,6 @@ make && ./fractol *name_of_fractals*
 - Must be able to quit the program by pressing `esc`.
 - The use of images from `minilibX` is strongly encouraged.
 - Find attached a binary called fractol.
-
-![](Julia.png)
 
 #### Bonus part
 - Use 'RIGHT' and 'LEFT' to change fractal.
