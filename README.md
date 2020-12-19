@@ -31,20 +31,24 @@ make && ./fractol *name_of_fractals*
   - All the functions defined in the `miniLibX` library.
   
 #### Mandatory part
-- Must have 2 type of projection but you stay free to choose the type of projection: parallel, iso, conic.
+- Software should offer at least 3 different types of fractals, including the Julia set, the Mandelbrot set and the Burningship set.
+- It must be possible to make the parameter of the Julia set vary only with the mouse(without clicking).
+- The mouse wheel zooms in and out, almost infinitely (within the limits of the computer). This is the very principle of fractals.
+- You must use at least a few colors to show the depth of each fractal. It’s even better if you hack away on psychedelic effects.
+- A parameter is passed on the command line to define what type of fractal will be viewed. If no parameter is provided, or if the parameter is invalid, the program displays a list of available parameters and exits properly.
 - Must be able to quit the program by pressing `esc`.
 - The use of images from `minilibX` is strongly encouraged.
-- Find attached a binary called fdf.
+- Find attached a binary called fractol.
 
-![](Mars.png)
+![](Julia.png)
 
 #### Bonus part
-- Change color using `1`, `2`, `3`, `4`.
-- Move on axis X using `LEFT` and `RIGHT`.
-- Move in axis Y using `UP` and `DOWN`.
-- Change zoom using `+` and `-`.
-- Change projection using `I`.
-- Rotate on axis X using `Q` and `E`.
-- Rotate on axis Y using `A` and `D`.
-- Rotate on axis Z using `Z` and `C`.
+- Use 'RIGHT' and 'LEFT' to change fractal.
+- Use 'UP' and 'DOWN' to change color.
+- Use mouse wheel to zoom.
+- Multi-threading implementation.
+- The zoom follow the actual mouse position.
+- Any number of valid parameters in the command line, resulting in same number of fractals in same number of windows.
+- Name of fractal in any case('JULIA'/'julia'/'JuLiA' and etc).
+- Add other fractals named the Heart, the the Mandelbar, the Celtic, the MandFive and the BurnFive.
 - Menu to help navigation.
