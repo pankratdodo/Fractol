@@ -16,7 +16,7 @@ git clone https://github.com/pankratdodo/Fractol.git
 ```
 make && ./fractol *name_of_fractals*
 ```
-If you have not the `minilibx` directory then you can use `mlx_install.sh`
+If you have not the `minilibx` library then you can use `mlx_install.sh`
 ```
 sh mlx_install.sh && make && ./fractol *name_of_fractals*
 ```
